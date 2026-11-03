@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, My Love • Our Memory Book</title>
+  
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="A bespoke birthday memory book crafted with all my love by Sadeepa for my entire world.">
+  <meta property="og:title" content="Happy Birthday, My Love • Our Memory Book">
+  <meta property="og:description" content="Turn the pages to walk through our most cherished moments, shared laughter, and quiet memories.">
+  <meta property="og:image" content="/assets/night-skyline-embrace-qetFBDn8.jpg">
+  <meta property="og:type" content="book">
+  <meta name="theme-color" content="#2F2225">
+
+  <!-- Google Fonts: Luxury Editorial Serif & Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <script type="module" crossorigin src="/assets/index-lT2EPwAD.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CU1HVVJZ.css">
+</head>
+<body>
+
+  <!-- Subtle Floating Ambient Particles Canvas -->
+  <canvas id="petals-canvas" aria-hidden="true"></canvas>
+
+  <!-- Elegant Stationery Envelope Screen -->
+  <section id="mobile-envelope-stage" class="mobile-envelope-stage" aria-label="Birthday Envelope">
+    <div class="envelope-card">
+      <!-- Softly Blurred Cycling Photos Inside Envelope Card -->
+      <div class="envelope-slideshow-wrap" id="envelope-slideshow-wrap" aria-hidden="true">
+        <div class="envelope-slide active">
+          <img src="/assets/IMG_8875-BVd6H9t4.JPG" alt="" loading="eager">
+        </div>
+        <div class="envelope-slide">
+          <img src="/assets/IMG_8892-Wi61QWqp.jpg" alt="" loading="eager">
+        </div>
+        <div class="envelope-slide">
+          <img src="/assets/IMG_8919-us5GjF7U.jpg" alt="" loading="eager">
+        </div>
+        <div class="envelope-slide">
+          <img src="/assets/IMG_8924-CyS9mxAf.JPG" alt="" loading="eager">
+        </div>
+        <div class="envelope-slideshow-overlay"></div>
+      </div>
+
+      <div class="envelope-ribbon-v"></div>
+      <div class="envelope-ribbon-h"></div>
+      <div class="envelope-stamp">AIR MAIL • SPECIAL DELIVERY</div>
+      <span class="envelope-recipient">To My Entire World,</span>
+      <h2 class="envelope-title">Our Little Memory Book</h2>
+      <p class="envelope-subtitle">All our sweetest memories, quiet moments, and my love for you</p>
+
+      <div class="envelope-wax-wrap">
+        <button type="button" id="envelope-seal-btn" class="envelope-wax-btn" aria-label="Break wax seal and open envelope">
+          <img src="/assets/wax-seal-d-removebg-preview-ClxcOv-2.png" alt="Rose gold wax seal with letter D" class="envelope-seal-img">
+          <div class="wax-pulse-ring"></div>
+        </button>
+        <span class="wax-prompt">Tap Seal to Open</span>
+      </div>
+
+      <div class="envelope-audio-hint">
+        <span>Turn on sound for soft music</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Floating Header Controls -->
+  <header class="book-header">
+    <div class="header-tools">
+      <button type="button" id="photo-album-btn" class="pill-tool-btn" aria-label="Open our romantic photo album">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+        </svg>
+        <span>Our Photos (<span id="photo-count-badge">25</span>)</span>
+      </button>
+
+      <button type="button" id="audio-toggle-btn" class="pill-tool-btn" aria-label="Toggle music">
+        <div class="audio-equalizer" aria-hidden="true">
+          <span class="audio-bar"></span>
+          <span class="audio-bar"></span>
+          <span class="audio-bar"></span>
+          <span class="audio-bar"></span>
+        </div>
+        <span>Music</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       THE MEMORY BOOK STAGE (PAGE-BY-PAGE EXPERIENCE)
+       ========================================================================== -->
+  <main class="book-scene" role="region" aria-label="Page by page interactive memory book">
+    <div class="memory-book">
+      <div class="pages-stack">
+        
+        <!-- PAGE 0: HARDCOVER -->
+        <article class="book-page cover-page active" data-page="0">
+          <div class="cover-corner-ornaments"></div>
+          <p class="cover-subtitle">Our Story • අපේ කතාව</p>
+          <h1 class="cover-title">MY LOVE</h1>
+          <span class="cover-script">Happy Birthday to you !!</span>
+          <p class="cover-quote-tagline">“Some stories are not written by destiny. They are written by two hearts that refuse to give up.”</p>
+
+          <!-- Rose Gold Wax Seal with Letter 'D' -->
+          <button type="button" class="cover-seal-btn" id="cover-seal-btn" title="Click to break the wax seal and open">
+            <img src="/assets/wax-seal-d-removebg-preview-ClxcOv-2.png" alt="Rose gold wax seal with letter D" class="cover-seal-img">
+          </button>
+
+          <button type="button" id="cover-open-btn" class="cover-open-pill">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+            <span>Open Our Story</span>
+          </button>
+
+          <p class="cover-hint">Written with all my heart by Sadeepa • Tap to open</p>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 1: CHAPTER I - THE DAY EVERYTHING BEGAN (MAY 2024) -->
+        <article class="book-page" data-page="1">
+          <div class="page-filigree-border"></div>
+          
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter I</span>
+            <h2 class="page-title">The Day Everything Began</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="dasithma-lilies-portrait" style="transform: rotate(-1deg); max-width: 210px; margin: 0.35rem auto 0.85rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/IMG_8875-BVd6H9t4.JPG" alt="My love holding white lilies" loading="eager">
+              <p class="polaroid-caption">When You Entered My World</p>
+              <span class="polaroid-subcaption">May 2024 • Our Roadside Beginning</span>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                Our story started on a simple day back in May 2024. That day, I had no idea that the most special person in my whole life was about to walk in.
+              </p>
+              <p>
+                You came to our house in a car with your mom. My dad, mom, Chuti Akka, and I were standing outside near the road when your car stopped right in front of our gate.
+              </p>
+              <p>
+                Your mom said you were looking for a campus to study. Without thinking much, I said, “Put her in the same campus I go to,” and told you all about how it was.
+              </p>
+              <p>
+                Back then, I never imagined that the girl I was helping that day would become the most precious person in my entire world.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter I: May 2024</span>
+            <span>Page 1 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 2: CHAPTER II - FROM RATNAPURA TO COLOMBO -->
+        <article class="book-page" data-page="2">
+          <div class="page-filigree-border"></div>
+          
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter II</span>
+            <h2 class="page-title">Journeys by Your Side</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="ratnapura-colombo-travel" style="transform: rotate(1.5deg); max-width: 210px; margin: 0.35rem auto 0.85rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/ratnapura-colombo-travel-Bq_rpQ7P.jpg" alt="Holding hands tight on the journey from Ratnapura to Colombo" loading="lazy">
+              <p class="polaroid-caption">Every Mile With You</p>
+              <span class="polaroid-subcaption">Ratnapura to Colombo • Safe in My Care</span>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                A few days later, you came over to our house again. I sat with you and helped you fill out your campus application form, explaining everything about classes and campus life.
+              </p>
+              <p>
+                After that, I went with you and your mom to Colombo to show you the campus and look for boarding. We walked to so many places, and even though we didn't find the right spot and went back home, something sweet had already started between us.
+              </p>
+              <p>
+                We exchanged phone numbers and began talking every single day. Once campus started, I was always right beside you. I started taking you from Ratnapura to Colombo and bringing you back home safe.
+              </p>
+              <p>
+                You weren't used to those long travels, so I always stayed close to take care of you. Back then, I just wanted to help you. But day by day, talking to you and caring for you, I started falling deeply in love with you.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter II: Ratnapura to Colombo</span>
+            <span>Page 2 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 3: CHAPTER III - JULY 14, 2024: WHERE FOREVER BEGAN -->
+        <article class="book-page" data-page="3">
+          <div class="page-filigree-border"></div>
+          
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter III</span>
+            <h2 class="page-title">Where Forever Began</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="first-car-kiss" style="transform: rotate(-1.5deg); max-width: 215px; margin: 0.35rem auto 0.85rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/first-car-kiss-BkXN21vO.jpg" alt="Our very first photo together inside the car in the dark" loading="lazy">
+              <p class="polaroid-caption">Our Very First Photograph</p>
+              <span class="polaroid-subcaption">Inside the Car • In the Quiet Dark</span>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                As time went by, I couldn't keep my feelings hidden anymore.
+              </p>
+              <p>
+                Around July 7 or 8, 2024, I told you that I loved you.
+              </p>
+              <p>
+                And on <strong>July 14, 2024</strong>, your answer came.
+              </p>
+              <p style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--rose-accent); text-align: center; margin: 0.5rem 0;">
+                2024.07.14
+              </p>
+              <p>
+                A date neither of us will ever forget. From that day on, our whole world changed. What started as helping each other turned into the most beautiful love story of our lives.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter III: July 14, 2024</span>
+            <span>Page 3 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 4: CHAPTER IV - ONE GALLE FACE & NUGEGODA COFFEE -->
+        <article class="book-page" data-page="4">
+          <div class="page-filigree-border"></div>
+          
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter IV</span>
+            <h2 class="page-title">Our First Solo Date &amp; Nugegoda Coffee</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="barista-nugegoda-kiss" style="transform: rotate(-1deg); max-width: 210px; margin: 0.35rem auto 0.85rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/barista-nugegoda-kiss-CqbE-csV.jpg" alt="Sharing a sweet kiss at Nugegoda Barista coffee shop" loading="lazy">
+              <p class="polaroid-caption">Our Cozy Haven</p>
+              <span class="polaroid-subcaption">Nugegoda Barista • Every Last Rupee For Your Smile</span>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                One day when you had an interval during your British Council class, we went to <strong>One Galle Face</strong> together. That was our very first time going out alone together after falling in love. Even today, whenever I remember that day, I get the warmest feeling in my heart.
+              </p>
+              <p>
+                Later, you started attending dubbing classes in Nugegoda, and that gave us more chances to meet.
+              </p>
+              <p>
+                Whenever you said you wanted to eat something, I never thought twice—even if it was the last rupee left in my pocket, I spent it gladly on you.
+              </p>
+              <p>
+                Buying you food, eating together, and seeing you smile was all that mattered to me. To me, that was never an expense. It was just my simple way of showing how much I love you.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter IV: Solo Dates &amp; Coffee</span>
+            <span>Page 4 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 5: CHAPTER V - TWO HEARTS THAT REFUSED TO GIVE UP -->
+        <article class="book-page" data-page="5">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter V</span>
+            <h2 class="page-title">Two Hearts That Refused to Give Up</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="page-body-text">
+              <p>
+                After we fell in love, you asked me to talk to your mom. I went straight to her and said, <em>“Aunty, mama nangita kamathiyi.”</em>
+              </p>
+              <p>
+                At first there was no big problem, but as days passed, your mom became against us. That wasn't easy for either of us.
+              </p>
+              <p>
+                We had hard days. There were times we couldn't meet at all. We had to go two or three weeks without seeing each other, and sometimes we waited almost a whole month just to meet.
+              </p>
+              <p>
+                Through all of it, our love never stopped. We tried our best to be there for each other in every way we could. That's why our story means the world to me.
+              </p>
+            </div>
+
+            <!-- Live Love Milestone Counter -->
+            <div class="love-counter-card">
+              <span class="counter-label">Time My Heart Has Belonged to You</span>
+              <div class="counter-grid">
+                <div class="counter-unit">
+                  <span class="counter-num" id="counter-days">--</span>
+                  <span class="counter-tag">Days</span>
+                </div>
+                <div class="counter-unit">
+                  <span class="counter-num" id="counter-hours">--</span>
+                  <span class="counter-tag">Hours</span>
+                </div>
+                <div class="counter-unit">
+                  <span class="counter-num" id="counter-mins">--</span>
+                  <span class="counter-tag">Mins</span>
+                </div>
+                <div class="counter-unit">
+                  <span class="counter-num" id="counter-secs">--</span>
+                  <span class="counter-tag">Secs</span>
+                </div>
+              </div>
+              <p class="counter-foot">“Some stories are not written by destiny. They are written by two hearts that refuse to give up.”</p>
+            </div>
+
+            <!-- Milestone Timeline -->
+            <div class="milestone-timeline">
+              <div class="milestone-row">
+                <span class="milestone-date-badge">14 July 2024</span>
+                <span class="milestone-desc">The Day You Said Yes • Where Forever Began</span>
+              </div>
+              <div class="milestone-row">
+                <span class="milestone-date-badge">14 July 2025</span>
+                <span class="milestone-desc">Our First Year of Love • Always by Your Side</span>
+              </div>
+              <div class="milestone-row">
+                <span class="milestone-date-badge">14 July 2026</span>
+                <span class="milestone-desc">Two Years Together • Still Standing Strong</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter V: Still Standing Strong</span>
+            <span>Page 5 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 6: CHAPTER VI - OUR LITTLE WORLD (PARKS & TEMPLES) -->
+        <article class="book-page" data-page="6">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter VI</span>
+            <h2 class="page-title">Our Little World</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="scrapbook-duo">
+              <div class="polaroid-card clickable-photo" data-photo-id="kotte-wetland-hug" style="transform: rotate(-1.5deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/kotte-wetland-hug-BKijhcnf.jpg" alt="Holding each other at Kotte Rampart Wetland Park" loading="lazy">
+                <p class="polaroid-caption">Safe in Your Embrace</p>
+              </div>
+
+              <div class="polaroid-card clickable-photo" data-photo-id="temple-adoration" style="transform: rotate(2deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/temple-adoration-lAxJ3fOp.jpg" alt="Looking up with pure love at the temple" loading="lazy">
+                <p class="polaroid-caption">A Quiet Sanctuary</p>
+              </div>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                Look at all the places we've been together.
+              </p>
+              <p>
+                We went to <strong>Kotte Rampart Wetland Park</strong>. We went to other parks, walked around peaceful temples to pray together, and went for quiet night walks under the stars.
+              </p>
+              <p>
+                We ate good food at different spots, and sometimes we just walked together without even planning where to go. Every single trip brought us so much happiness.
+              </p>
+              <p>
+                We never needed fancy places. Just having you next to me was always more than enough.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter VI: Our Little World</span>
+            <span>Page 6 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 7: CHAPTER VII - OUR JOURNEY TO GALLE (2026) -->
+        <article class="book-page" data-page="7">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter VII</span>
+            <h2 class="page-title">Our Journey to Galle</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="scrapbook-duo">
+              <div class="polaroid-card clickable-photo" data-photo-id="galle-trip-hug" style="transform: rotate(-2deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/galle-trip-hug-B-QENPFH.jpg" alt="Our sweet hug during our Galle trip" loading="lazy">
+                <p class="polaroid-caption">Together in Galle</p>
+              </div>
+
+              <div class="polaroid-card clickable-photo" data-photo-id="couch-laughter" style="transform: rotate(2deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/couch-laughter-BEnBBpWM.jpg" alt="Bursting into pure, sweet laughter" loading="lazy">
+                <p class="polaroid-caption">Pure &amp; Effortless Joy</p>
+              </div>
+            </div>
+
+            <div class="page-body-text">
+              <p>
+                In 2026, we went on a trip to Galle together.
+              </p>
+              <p>
+                We walked around, ate, drank, and explored so many places. We fed the sea turtles, went on boat rides, and swung together by the beach with the cool ocean breeze in our hair.
+              </p>
+              <p>
+                All the photos and videos we took that day are still our favorite memories. What made that day so special wasn't just Galle—it was getting to live every single second of it with you.
+              </p>
+            </div>
+            <p class="tap-hint-text">Tap any photograph to read our memory note</p>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter VII: Galle 2026</span>
+            <span>Page 7 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 8: CHAPTER VIII - UNDER THE CITY LIGHTS -->
+        <article class="book-page" data-page="8">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter VIII</span>
+            <h2 class="page-title">Under the City Lights</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="scrapbook-duo">
+              <div class="polaroid-card clickable-photo" data-photo-id="night-skyline-embrace" style="transform: rotate(-2deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/night-skyline-embrace-qetFBDn8.jpg" alt="Holding each other under the night lights" loading="lazy">
+                <p class="polaroid-caption">City Lights &amp; Starlight</p>
+              </div>
+
+              <div class="polaroid-card clickable-photo" data-photo-id="night-skyline-kiss" style="transform: rotate(2deg); max-width: 175px;">
+                <div class="polaroid-tape"></div>
+                <img src="/assets/night-skyline-kiss-B1z6Wv56.jpg" alt="Our midnight kiss under the night sky" loading="lazy">
+                <p class="polaroid-caption">Our Midnight Kiss</p>
+              </div>
+            </div>
+
+            <div class="scrapbook-quote-banner">
+              <p>“The city lights are pretty, but nothing in this skyline compares to the light in your eyes.”</p>
+            </div>
+
+            <!-- Interactive Mobile Heartbeat Sensor -->
+            <div class="heartbeat-container" id="heartbeat-container">
+              <div class="heartbeat-pulse-box" id="heartbeat-touch-target" role="button" aria-label="Touch and hold to feel heartbeat" tabindex="0">
+                <div class="heartbeat-ring ring-1"></div>
+                <div class="heartbeat-ring ring-2"></div>
+                <div class="heart-symbol">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                  </svg>
+                </div>
+                <span class="heartbeat-instruction">Hold Thumb Here to Feel My Heartbeat</span>
+              </div>
+              <div class="heartbeat-message" id="heartbeat-message">
+                <span class="bpm-indicator">86 BPM</span>
+                <p>“Every single beat belongs to you, my love. Put your hand to your chest... I am right here with you always.”</p>
+              </div>
+            </div>
+
+            <div class="page-body-text" style="font-size: 0.95rem; text-align: center; margin-top: 0.4rem;">
+              <p>Holding you safe in my arms under the cool night breeze is the most peaceful place in the world for me.</p>
+            </div>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter VIII: Under the City Lights</span>
+            <span>Page 8 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 9: CHAPTER IX - WHAT I ADORE ABOUT YOU -->
+        <article class="book-page" data-page="9">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter IX</span>
+            <h2 class="page-title">What I Adore About You</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="queen-portrait" style="transform: rotate(-1deg); max-width: 210px; margin-bottom: 0.8rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/queen-portrait-D7LvkubS.jpg" alt="Portrait of my love" loading="lazy">
+              <p class="polaroid-caption">My Entire World</p>
+            </div>
+
+            <div class="reasons-book-grid">
+              <div class="reason-book-item">
+                <h3 class="reason-book-title">Your Laugh</h3>
+                <p class="reason-book-desc">How your eyes crinkle when you laugh from the heart. It's my favorite sound in the world.</p>
+              </div>
+
+              <div class="reason-book-item">
+                <h3 class="reason-book-title">Your Kind Heart</h3>
+                <p class="reason-book-desc">How you naturally care for everyone around you, with so much patience and sweetness.</p>
+              </div>
+
+              <div class="reason-book-item">
+                <h3 class="reason-book-title">Your Sweet Smile</h3>
+                <p class="reason-book-desc">You bring so much light and calm into my life just by smiling.</p>
+              </div>
+
+              <div class="reason-book-item">
+                <h3 class="reason-book-title">Our Quiet Talks</h3>
+                <p class="reason-book-desc">How we can talk about anything for hours, or just sit together in quiet comfort without saying a word.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter IX: What I Adore</span>
+            <span>Page 9 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 10: CHAPTER X - MY LOVE LETTER TO YOU -->
+        <article class="book-page" data-page="10">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter X</span>
+            <h2 class="page-title" style="font-family: var(--font-script); font-size: 2.4rem; color: var(--rose-accent); margin-bottom: 0.25rem;">
+              To My Dearest Love,
+            </h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <div class="polaroid-card clickable-photo" data-photo-id="night-neck-kiss" style="transform: rotate(-1.5deg); max-width: 185px; margin-bottom: 0.75rem;">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/night-neck-kiss-D3K43A4V.jpg" alt="Gently holding each other under the warm lights" loading="lazy">
+              <p class="polaroid-caption">Forever My Favorite View</p>
+            </div>
+
+            <div class="page-body-text" style="font-size: 1.02rem; line-height: 1.75;">
+              <p>
+                If someone asks me what our most beautiful memory is, I could never pick just one day. Because every single day I spend with you is a beautiful memory to me.
+              </p>
+              <p>
+                I don't know how much further our journey will go, or what problems might come in the future. But there is one thing I know for sure:
+              </p>
+              <p style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; color: var(--rose-accent); text-align: center; margin: 0.6rem 0;">
+                I love you.
+              </p>
+              <p>
+                Those words I told you back in July 2024 are still just as true in my heart today.
+              </p>
+              <p style="font-weight: 500; color: var(--text-primary);">
+                My love, this is not the end of our story. This is just the most beautiful chapter of our lives, still being written.
+              </p>
+              <p style="text-align: right; margin-top: 0.75rem; font-style: italic;">
+                I love you, my treasure.<br>
+                <em>Forever yours,</em><br>
+                <span style="font-family: var(--font-script); font-size: 2.2rem; color: var(--rose-accent); display: block; margin-top: 0.15rem;">Sadeepa</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter X: Words of Love</span>
+            <span>Page 10 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 11: CHAPTER XI - MAKE A BIRTHDAY WISH (INTERACTIVE CAKE) -->
+        <article class="book-page" data-page="11">
+          <div class="page-filigree-border"></div>
+
+          <header class="page-top-header">
+            <span class="page-chapter-label">Chapter XI</span>
+            <h2 class="page-title" style="text-align: center; margin-bottom: 0.2rem;">Make a Birthday Wish</h2>
+          </header>
+
+          <div class="page-content-scroll">
+            <p style="font-family: var(--font-sans); font-size: 0.95rem; color: var(--text-secondary); text-align: center; margin-bottom: 0.4rem;">
+              Close your eyes, make a wish, and blow out your candles.
+            </p>
+
+            <!-- Artisanal Decorated 3-Tier Birthday Cake with 3 Candles -->
+            <div class="cake-stage-book" title="Tap candles to blow out">
+              <div class="cake-glow-aura" aria-hidden="true"></div>
+
+              <div class="cake-candles-book" id="cake-candles-book">
+                <div class="candle-book">
+                  <div class="candle-flame-book"></div>
+                  <div class="smoke-puff-book"></div>
+                </div>
+                <div class="candle-book candle-center">
+                  <div class="candle-flame-book"></div>
+                  <div class="smoke-puff-book"></div>
+                </div>
+                <div class="candle-book">
+                  <div class="candle-flame-book"></div>
+                  <div class="smoke-puff-book"></div>
+                </div>
+              </div>
+
+              <!-- Top Whipped Cream & Ruby Birthday Cherries -->
+              <div class="cake-cherries-row" aria-hidden="true">
+                <span class="cake-cherry"></span>
+                <span class="cake-rosette"></span>
+                <span class="cake-cherry"></span>
+                <span class="cake-rosette"></span>
+                <span class="cake-cherry"></span>
+              </div>
+
+              <!-- Top Tier: Vanilla Velvet with Scallop Drips -->
+              <div class="cake-layer-top-book">
+                <div class="cake-icing-drips"></div>
+                <div class="cake-pearl-border"></div>
+              </div>
+
+              <!-- Middle Tier: Rose-Gold Buttercream with Scallop Drips & Pearls -->
+              <div class="cake-layer-middle-book">
+                <div class="cake-icing-drips"></div>
+                <div class="cake-pearl-border"></div>
+              </div>
+
+              <!-- Bottom Tier: Rich Ganache with Gold Ribbon & Medallion -->
+              <div class="cake-layer-bottom-book">
+                <div class="cake-icing-drips"></div>
+                <div class="cake-ribbon-band">
+                  <span class="cake-gold-emblem"></span>
+                </div>
+                <div class="cake-pearl-border"></div>
+              </div>
+
+              <!-- Royal Gold Pedestal Cake Stand -->
+              <div class="cake-plate-book">
+                <div class="cake-stand-stem"></div>
+                <div class="cake-stand-base"></div>
+              </div>
+            </div>
+
+            <div class="cake-controls-group">
+              <button type="button" id="book-blow-btn" class="cover-open-pill">
+                <span>Blow Out Candles</span>
+              </button>
+              <button type="button" id="mic-blow-toggle-btn" class="mic-blow-pill" aria-label="Enable phone microphone to blow out candles">
+                <span>Use Phone Microphone</span>
+              </button>
+            </div>
+            <p id="mic-status-hint" class="mic-status-hint" style="display: none;">Listening for your breath... Blow into your microphone</p>
+
+            <!-- Secret Birthday Wish Card -->
+            <div id="wish-unlocked-book-card">
+              <div class="wish-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 1.25rem; color: var(--rose-accent); margin-bottom: 0.25rem;">
+                Your Wish Has Been Carried Forward
+              </h3>
+              <p style="font-family: var(--font-sans); font-size: 0.98rem; color: var(--text-primary); line-height: 1.6;">
+                “May every single wish in your beautiful heart come true. You deserve all the peace, happiness, and love in this world. Happy Birthday, my love.”
+              </p>
+            </div>
+          </div>
+
+          <div class="page-number-tag">
+            <span>Chapter XI: Birthday Wish</span>
+            <span>Page 11 of 11</span>
+          </div>
+          <div class="page-dogear" title="Turn page ❯"></div>
+        </article>
+
+        <!-- PAGE 12: BACK COVER - EPILOGUE (HAPPY BIRTHDAY ENDING) -->
+        <article class="book-page cover-page" data-page="12">
+          <div class="cover-corner-ornaments"></div>
+
+          <div class="page-content-scroll" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-align: center; width: 100%; padding-top: 0.5rem;">
+            <span class="page-chapter-label" style="color: var(--gold-accent); margin-bottom: 0.25rem;">Our Forever Story</span>
+
+            <!-- Large Romantic Centerpiece Photo: Sitting Across From You -->
+            <div class="polaroid-card clickable-photo" data-photo-id="ending-together" style="max-width: 290px; margin: 0.2rem auto 0.75rem; transform: rotate(-0.5deg);">
+              <div class="polaroid-tape"></div>
+              <img src="/assets/ending-together-CzK6luyD.jpg" alt="Sadeepa and his love holding hands across the table" loading="eager" style="aspect-ratio: 16/9; object-fit: cover;">
+              <p class="polaroid-caption">My Favorite View in the World</p>
+            </div>
+
+            <h2 class="cover-title" style="font-size: clamp(1.4rem, 3.4vw, 1.85rem); margin-bottom: 0.35rem; color: #FAF7F2;">
+              Happy Birthday, My Entire World
+            </h2>
+            <div style="font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.18em; color: var(--gold-accent); margin-bottom: 0.85rem;">
+              
+            </div>
+
+            <div class="page-body-text" style="max-width: 330px; margin: 0 auto 1.15rem; font-size: 0.98rem; line-height: 1.65; color: #E8D9D0; text-align: center;">
+              <p style="margin-bottom: 0.65rem;">
+                Sitting across the table from you, holding your gentle hand, and watching your smile light up the room will always be my happiest place.
+              </p>
+              <p style="margin-bottom: 0.65rem;">
+                From the quiet roadside where we met in May, through every late-night travel, every struggle we stood against together, to this special birthday — loving you is the sweetest blessing of my life.
+              </p>
+              <p style="font-style: italic; color: #FAF7F2; font-family: var(--font-serif); font-size: 1.05rem;">
+                “May all your dreams blossom. I promise to cherish, protect, and love you today, tomorrow, and forever.”
+              </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 0.65rem; align-items: center; margin-top: 0.35rem; margin-bottom: 1.25rem;">
+              <button type="button" id="read-again-btn" class="cover-open-pill">
+                <span>Read Again From Beginning ↺</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="page-number-tag" style="color: rgba(255,255,255,0.6); border-color: rgba(200, 169, 126, 0.25);">
+            <span>Our Forever Story</span>
+            <span>Back Cover</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       BOTTOM NAVIGATION CONTROLS (TURN PAGES)
+       ========================================================================== -->
+  <nav class="book-nav-controls" aria-label="Book page navigation">
+    <div class="page-dots-indicator" id="page-dots" aria-label="Page indicator dots"></div>
+
+    <div class="nav-buttons-wrap">
+      <button type="button" id="book-prev-btn" class="nav-turn-btn" aria-label="Turn page backward">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+        <span>Turn Back</span>
+      </button>
+
+      <button type="button" id="book-next-btn" class="nav-turn-btn" aria-label="Turn page forward">
+        <span>Turn Page</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       FULL SCRAPBOOK ALBUM DIALOG (COUPLE PHOTOS OVERVIEW)
+       ========================================================================== -->
+  <dialog id="scrapbook-dialog" class="romantic-modal scrapbook-modal" aria-label="Romantic Couple Photo Scrapbook">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-badge">OUR COMPLETE STORY</span>
+          <h2 class="modal-title">Our Photo Scrapbook</h2>
+          <p class="modal-subtitle">Twenty-five cherished moments from our journey together</p>
+        </div>
+        <button type="button" class="modal-close-btn" id="scrapbook-close-btn" aria-label="Close photo album">✕</button>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="scrapbook-filters" role="tablist">
+        <button type="button" class="filter-pill active" data-category="all">All Memories (25)</button>
+        <button type="button" class="filter-pill" data-category="romantic">Golden Hours</button>
+        <button type="button" class="filter-pill" data-category="cozy">Quiet Moments</button>
+        <button type="button" class="filter-pill" data-category="starlight">Starlit Evenings</button>
+      </div>
+
+      <!-- Scrapbook Grid of Polaroids -->
+      <div class="scrapbook-album-grid" id="scrapbook-album-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- ==========================================================================
+       ROMANTIC PHOTO LIGHTBOX DIALOG (HIGH RES INSPECT & LOVE NOTE)
+       ========================================================================== -->
+  <dialog id="photo-lightbox-dialog" class="romantic-modal lightbox-modal" aria-label="View Photo Memory">
+    <div class="lightbox-card">
+      <button type="button" class="modal-close-btn lightbox-close-btn" id="lightbox-close-btn" aria-label="Close photo">✕</button>
+
+      <div class="lightbox-main">
+        <!-- Photo with refined frame -->
+        <div class="lightbox-photo-frame">
+          <img id="lightbox-img" src="" alt="Couple memory photograph">
+        </div>
+
+        <!-- Romantic Note Sidebar / Content -->
+        <div class="lightbox-details">
+          <div class="lightbox-meta">
+            <span id="lightbox-category" class="lightbox-category-badge">Golden Hour</span>
+            <span id="lightbox-location" class="lightbox-location-tag">Mirissa Coast</span>
+          </div>
+
+          <h3 id="lightbox-title" class="lightbox-title">Wrapped in Your Arms</h3>
+          <p id="lightbox-caption" class="lightbox-caption">“Golden waves, cool breeze, and you in my embrace.”</p>
+
+          <div class="lightbox-love-letter">
+            <span class="love-letter-stamp">Sadeepa's Note</span>
+            <p id="lightbox-note" class="lightbox-note-text">
+              Every time I look at this photo, I remember how lucky I am to have you as my girl.
+            </p>
+          </div>
+
+          <!-- Interactive Reaction -->
+          <div class="lightbox-actions">
+            <button type="button" id="lightbox-heart-btn" class="heart-react-btn" aria-label="Favorite this photo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+              <span class="heart-text">Favorite (<span id="heart-count">24</span>)</span>
+            </button>
+            <div class="lightbox-nav-btns">
+              <button type="button" id="lightbox-prev-btn" class="lightbox-arrow-btn" aria-label="Previous photo">❮</button>
+              <button type="button" id="lightbox-next-btn" class="lightbox-arrow-btn" aria-label="Next photo">❯</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-notification" role="status" aria-live="polite"></div>
+
+  <!-- Background Music Track -->
+  <audio id="bg-music-audio" preload="auto" loop src="/assets/the_mountain-happy-birthday-576570-4PYYmGkU.mp3"></audio>
+
+  <!-- Application Engine -->
+</body>
+</html>
