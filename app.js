@@ -710,12 +710,12 @@
       id: "ratnapura-colombo-travel",
       src: "assets/images/real/ratnapura-colombo-travel.jpg",
       title: "Every Mile With You",
-      caption: "Holding your hand tight on the journey from Ratnapura to Colombo.",
+      caption: "Holding your hand tight on our daily journeys to campus.",
       category: "romantic",
       categoryName: "Early Days",
-      location: "Ratnapura to Colombo",
+      location: "Pepiliyana Road to Campus",
       date: "Mid 2024",
-      loveNote: "Traveling from Ratnapura to Colombo with you and bringing you home safely. Feeling your gentle hand resting tight in mine, protecting your every step... what started as helping you quickly grew into the deepest love of my life."
+      loveNote: "Taking you from your boarding place on Pepiliyana Road to campus and keeping you safe every single day. Feeling your gentle hand resting tight in mine, protecting your every step... what started as wanting to help you quickly grew into the deepest love of my life."
     },
     {
       id: "kotte-wetland-hug",
