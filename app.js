@@ -698,13 +698,13 @@
     {
       id: "first-car-kiss",
       src: "assets/images/real/first-car-kiss.jpg",
-      title: "Where It All Began",
-      caption: "Our very first photograph together, in the car in the dark.",
+      title: "Stealing Moments Together",
+      caption: "Pelmadulla Keells basement parking • In the quiet of the car.",
       category: "romantic",
-      categoryName: "Our Beginnings",
-      location: "Inside the Car, In the Dark",
-      date: "July 2024",
-      loveNote: "July 2024. Our very first photograph together, sitting inside the car in the quiet of the dark. You said yes to my love on July 14, and in that gentle moment, our unforgettable story truly began."
+      categoryName: "Special Moments",
+      location: "Pelmadulla Keells, Lower Parking",
+      date: "Through Every Storm",
+      loveNote: "That day, despite all the problems and chaos at home, we made up our minds that we had to see each other. We met in the quiet lower parking of Pelmadulla Keells, inside the car away from the whole world. Holding you close and kissing your cheek tenderly in the dark, I knew that no matter what storms surrounded us, our love would always win."
     },
     {
       id: "ratnapura-colombo-travel",
@@ -713,9 +713,9 @@
       caption: "Holding your hand tight on our daily journeys to campus.",
       category: "romantic",
       categoryName: "Early Days",
-      location: "Pepiliyana Road to Campus",
+      location: "Boading house to Campus",
       date: "Mid 2024",
-      loveNote: "Taking you from your boarding place on Pepiliyana Road to campus and keeping you safe every single day. Feeling your gentle hand resting tight in mine, protecting your every step... what started as wanting to help you quickly grew into the deepest love of my life."
+      loveNote: "Taking you from your boarding place to campus and keeping you safe every single day. Feeling your gentle hand resting tight in mine, protecting your every step... what started as wanting to help you quickly grew into the deepest love of my life."
     },
     {
       id: "kotte-wetland-hug",
